@@ -24,6 +24,6 @@ def get_excel_download_link(df):
 
 
 st.header("Hello")
-df = p.DataFrame([["AAAAAAAAAAAAAA"]*15]*100000)
+df = p.DataFrame([["AAAAAAAAAAAAAA 1234"]*20]*100000)
 #st.markdown(get_table_download_link(df), unsafe_allow_html=True)
 st.markdown(get_excel_download_link(df), unsafe_allow_html=True)
