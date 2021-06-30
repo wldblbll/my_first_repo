@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as p
 import base64
+import io
 
 
 def get_table_download_link(df):
